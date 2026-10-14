@@ -1,0 +1,29 @@
+/* Il gioco ha un tema chiaro fisso: i colori sono negli stili dei componenti. */
+html,
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  color: #111827;
+}
+
+.projects-footer {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 17px 20px 32px;
+  border-top: 1px solid #e5e7eb;
+  font:
+    400 11px ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+.projects-footer a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.projects-footer a:hover {
+  color: #111827;
+}
